@@ -43,7 +43,7 @@ hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: white;
+  border-color: black;
 }
 .navbar-custom {
   position: absolute;
@@ -255,7 +255,7 @@ hr.small {
 }
 .section-heading {
   font-size: 36px;
-  margin-top: 60px;
+  margin-top: 0;
   font-weight: 700;
 }
 .caption {
@@ -398,3 +398,30 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #0085A1;
 }
+
+
+
+
+/* ----- Claire-CSS ----- */
+.img-responsive {
+  margin: 5px;
+}
+
+#header_small {
+  font-size: 30px;
+  color:black;
+  display: inline-block;
+}
+
+#header_large {
+  font-size: 40px;
+  color:black;
+  display: inline-block;
+}
+
+.section-altered {
+  font-size: 36px;
+  margin-top: 70;
+  font-weight: 700;
+}
+
